@@ -71,4 +71,10 @@ public:
 	static bool IsCollision(const AABB& aabb1, const AABB& aabb2);
 
 	static bool IsCollision(const AABB& aabb, const Sphere& sphere);
+
+	static bool IsCollision(const AABB& aabb, const Segment& segment);
+
+	static bool IsCollision(const AABB& aabb, const Line& line);
+
+	static bool IsCollision(const AABB& aabb, const Ray& ray);
 };
